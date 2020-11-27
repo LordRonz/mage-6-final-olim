@@ -21,7 +21,7 @@ int main(void) {
 		--i2;
 	    else if(t == 2 || t == 6)
 		--k2;
-	    else if(t == 3 || t ==5)
+	    else if(t == 3 || t == 5)
 		--a2;
 	    if(i2 < 0 || k2 < 0 || a2 < 0) break;
 	    ++day2;

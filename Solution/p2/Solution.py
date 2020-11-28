@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def main():
-    freq = [0 for i in range(15)]
+    freq = [0] * 15
     same = False
     n = int(input())
     ui = [-1]

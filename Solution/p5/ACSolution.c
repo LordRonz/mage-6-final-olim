@@ -25,7 +25,7 @@ int BFS(int m, int n, int* start, char target);
 
 int main() {
     int m, n;
-    int t[3][2];
+    int t[4][2];
     int minDist = 0;
     int temp = 0;
     char s[] = "MAGE";

@@ -3,9 +3,11 @@
 #include <string.h>
 
 int minDel(char* s) {
+    //mencari minimum deletion menggunakan algoritma longest palindromic subsequence
     int n = strlen(s);
     int dp[n][n];
     memset(dp, 0, sizeof(int) * n * n);
+    //mengisi dp table, yang nilainya akan terakumulasi di dp[0][n - 1]
     for(int i = n - 1; i >= 0; --i) {
 	dp[i][i] = 1;
 	for(int j = i + 1; j < n; ++j) {
@@ -15,6 +17,7 @@ int minDel(char* s) {
 		dp[i][j] = dp[i + 1][j] > dp[i][j - 1] ? dp[i + 1][j] : dp[i][j - 1]; 
 	}
     }
+    //untuk mendapatkan minimum deletion, tinggal mengurangi panjang string dengan lps
     return n - dp[0][n - 1];
 }
 

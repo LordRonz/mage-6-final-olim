@@ -16,8 +16,7 @@ def minDel(s):
     return n - dp[0]
 
 def main():
-    for _ in range(int(input())):
-        print(minDel(input()))
+    print('\n'.join(str(minDel(input())) for _ in range(int(input()))))
 
 if __name__ == "__main__":
     main()

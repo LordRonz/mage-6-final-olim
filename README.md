@@ -16,6 +16,6 @@ Solusi ditulis dengan bahasa C/C++, Java, dan Python
 Sangat tidak disarankan CP dengan Python karena **SLOW**, 
 Contohnya adalah di soal p3 yang di test ke-3 terjadi TLE  
 Sangat disarankan menggunakan C++ karena cepat dan STL nya yang lengkap  
-Lalu mengapa di solusi kebanyakan menggunakan C++?  
+Lalu mengapa di solusi kebanyakan menggunakan C bukan C++?  
 Karena soal-soal tersebut dapat dikerjakan tanpa menggunakan STL, kecuali p5 yang menggunakan BFS  
 Java juga tidak disarankan karena rata-rata membutuhkan kode yang lebih banyak daripada C++

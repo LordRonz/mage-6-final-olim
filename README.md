@@ -2,7 +2,7 @@
 
 Arsip Final Olimpiade **MAGE 6 Institut Teknologi Sepuluh Nopember**
 
-##Soal
+## Soal
 
 | Alias | Judul                            |
 | ----- | ---------------------------------|
@@ -14,7 +14,7 @@ Arsip Final Olimpiade **MAGE 6 Institut Teknologi Sepuluh Nopember**
 
 Solusi ditulis dengan bahasa C/C++, Java, dan Python  
 Sangat tidak disarankan CP dengan Python karena **SLOW**, 
-Contohnya adalah di soal p3 yang di test ke-3 terjadi TLE
+Contohnya adalah di soal p3 yang di test ke-3 terjadi TLE  
 Sangat disarankan menggunakan C++ karena cepat dan STL nya yang lengkap  
 Lalu mengapa di solusi kebanyakan menggunakan C++?  
 Karena soal-soal tersebut dapat dikerjakan tanpa menggunakan STL, kecuali p5 yang menggunakan BFS  
